@@ -1,0 +1,134 @@
+site_name: Guía de moderadores de DemonCraft
+site_url: https://slava1222.github.io/demoncraft-moderadores/
+site_description: >-
+  La guía para el equipo de moderación de DemonCraft: qué puede hacer un moderador, todos sus comandos, sus límites y
+  cómo actuar en cada caso.
+site_author: DemonCraft
+copyright: DemonCraft · Guía de moderadores
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: es
+  logo: assets/img/marca/icono.png
+  favicon: assets/img/marca/favicon.png
+  palette:
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+  font:
+    text: Noto Sans
+    code: JetBrains Mono
+  icon:
+    admonition:
+      note: material/notebook-outline
+      tip: material/lightbulb-on-outline
+      warning: material/alert-outline
+      danger: material/skull-outline
+      info: material/information-outline
+      example: material/sword-cross
+      question: material/help-circle-outline
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - toc.follow
+
+extra_css:
+  - assets/css/demoncraft.css
+
+extra_javascript:
+  - assets/js/demoncraft.js
+
+plugins:
+  - search:
+      lang: es
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - icono
+        - no-zoom
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: "#"
+      toc_depth: 3
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/glosario.md
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tilde
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/mdwAvAMBvr
+      name: Discord de DemonCraft
+    - icon: material/book-open-page-variant
+      link: https://slava1222.github.io/demoncraft-guia/
+      name: Guía de jugadores
+
+nav:
+  - Inicio: index.md
+  - Antes de empezar: empezar.md
+  - La ventana: ventana.md
+  - Comandos: comandos.md
+  - Cómo actuar: actuar.md
+  - Tus límites: limites.md
+  - Avisos y ayuda: avisos.md
+  - Preguntas frecuentes: faq.md

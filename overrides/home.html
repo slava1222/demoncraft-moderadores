@@ -1,0 +1,25 @@
+{% extends "main.html" %}
+
+{% block tabs %}
+  {{ super() }}
+  <section class="dc-hero">
+    <div class="dc-hero__fondo" style="background-image: url('{{ 'assets/img/portada.webp' | url }}')"></div>
+    <div class="md-grid dc-hero__contenido">
+      <img class="dc-hero__logo" src="{{ 'assets/img/marca/logo.png' | url }}" alt="DemonCraft" width="908" height="277">
+      <p class="dc-hero__texto">
+        La guía del equipo de moderación: qué puedes hacer como moderador, todos tus comandos, tus límites y cómo
+        actuar en cada caso. Si dudas, búscalo aquí antes de sancionar.
+      </p>
+      <a href="{{ 'empezar/' | url }}" class="md-button md-button--primary">Empieza aquí</a>
+      <a href="{{ 'comandos/' | url }}" class="md-button">Comandos</a>
+      <a href="https://slava1222.github.io/demoncraft-guia/" class="md-button">Guía de jugadores</a>
+      <a href="https://discord.gg/mdwAvAMBvr" class="md-button">Discord</a>
+    </div>
+  </section>
+{% endblock %}
+
+{% block content %}
+  <div class="dc-portada">
+    {{ super() }}
+  </div>
+{% endblock %}
