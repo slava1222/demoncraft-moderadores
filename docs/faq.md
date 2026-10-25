@@ -19,9 +19,31 @@ description: Los mensajes que le pueden salir a un moderador de DemonCraft y qu�
     Has chocado con tus topes tres veces en una hora: quedan suspendidas 12 horas. Si fue un malentendido, pide a un
     administrador que lo revise. [Ver el freno](limites.md#el-freno)
 
-??? question "¿Por qué no puedo usar /tp, /gamemode o /give?"
+??? question "¿Por qué no puedo usar /tp o /give?"
     Los moderadores no tienen op. Para ir hasta alguien: `/mod ir <jugador>`; para traerle: `/mod traer <jugador>`; para
-    mirar sin que te vean: `/espectador`.
+    mirar sin que te vean: `/espectador`. `/gamemode` sí, pero solo para ti y solo `creative`, `spectator` o `survival`.
+
+??? question "Me sale «En el creativo de moderador solo se modera» (o «se mira y se modera»)"
+    Estás en el creativo vigilado: solo te funcionan `/mod`, `/espectador` y `/gamemode`, y no coges, colocas, abres
+    cofres, pegas, compras ni viajas. Para eso, vuelve con `/gamemode survival`. [Ver tus límites en creativo](limites.md#en-creativo)
+
+??? question "¿Pierdo mi inventario si me pongo en creativo?"
+    No. Se guarda al entrar y te vuelve entero con `/gamemode survival` (o el botón **Supervivencia** de la ventana),
+    aunque salgas del servidor entretanto.
+
+??? question "No me deja ponerme en creativo ni en espectador"
+    Con *«Ahora no: estás en plena pelea»* o *«termina lo que tienes entre manos»* (un duelo o una escena), espera a que
+    acabe. Con las herramientas suspendidas tampoco se puede. Y si te sale *«Un moderador no puede pasar a creativo»*, el
+    dueño del servidor lo tiene apagado: te queda el espectador.
+
+??? question "Me sale «Para traerle, ponte en el suelo»"
+    Estás volando o en espectador. Baja al suelo (o vuelve a supervivencia) y tráele: así no aparece en el aire ni dentro
+    de una pared.
+
+??? question "Un jugador dice que ha entrado sin protección de llegada"
+    No es un fallo: la protección (30 segundos sin recibir daño al entrar) es **una vez cada 15 minutos**. Si salió y
+    volvió a entrar antes, entra sin ella y el chat se lo dice, con los minutos que le faltan.
+    [Ver por qué](avisos.md#la-proteccion-de-llegada)
 
 ??? question "¿Puedo mirar el inventario de alguien que no está conectado?"
     Sí, pero solo mirar: ves lo de su último guardado. Para retirarle algo tiene que estar conectado y fuera de un duelo.

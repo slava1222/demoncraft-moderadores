@@ -29,14 +29,19 @@ Para comprobar que todo va bien, escribe `/mod`: arriba de la ventana sale tu pa
 - **`/mod`** (o `/moderacion`): la ventana y todos los [comandos de moderación](comandos.md).
 - **`/espectador`**: te pone en modo espectador para mirar sin que te vean. Escríbelo otra vez y vuelves al mismo sitio y
   al mismo modo en el que estabas. Queda apuntado en el historial.
+- **`/gamemode`**, solo para ti: `creative` (el **creativo vigilado**, para volar y mirar), `spectator` (como
+  `/espectador`) y `survival` para volver. También con los botones de la [ventana](ventana.md#tu-modo-de-juego).
+  [Ver cómo funciona](comandos.md#tu-modo-de-juego).
 
 ## Lo que no tienes
 
 Un moderador modera, y nada más:
 
-- **No tienes op.** Nada de `/gamemode`, `/give`, `/tp`, `/fill`… Para moverte hasta alguien usa `/mod ir` y para traerle,
-  `/mod traer`.
-- **Nunca estás en creativo**, ni aunque alguien te lo ponga.
+- **No tienes op.** Nada de `/give`, `/tp`, `/fill`… (`/gamemode`, solo para ti y solo esos tres modos). Para moverte
+  hasta alguien usa `/mod ir` y para traerle, `/mod traer`.
+- **Tu creativo es vigilado**, te lo ponga quien te lo ponga: vuelas y nadie te hace daño, pero no sacas nada del
+  creativo ni coges, sueltas, colocas, abres cofres, pegas, compras o viajas. Tu inventario se guarda al entrar y vuelve
+  entero al salir ([ver tus límites en creativo](limites.md#en-creativo)).
 - **No te saltas las protecciones**: igual que cualquier jugador, no rompes ni colocas nada en el mapa, ni abres las casas o
   los cofres de otros.
 - Lo que retiras de un inventario **no va a ti**: se guarda aparte a nombre del jugador y desde ahí se le puede devolver

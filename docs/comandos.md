@@ -1,6 +1,6 @@
 ---
 title: Comandos
-description: Todos los comandos de un moderador de DemonCraft (/mod y /espectador), con lo que hace cada uno y lo que hay que tener en cuenta.
+description: Todos los comandos de un moderador de DemonCraft (/mod, /espectador y /gamemode), con lo que hace cada uno y lo que hay que tener en cuenta.
 ---
 
 # Comandos
@@ -41,8 +41,29 @@ no se entiende.
 | `/mod congelar <jugador>` | No se mueve, no pega, no recibe daño ni usa nada; solo puede hablar | Solo si está conectado. **Si se desconecta, deja de estar congelado** (te llega un aviso), y también al reiniciar el servidor |
 | `/mod descongelar <jugador>` | Le suelta | |
 | `/mod ir <jugador>` | Te lleva a su lado | Solo si está conectado |
-| `/mod traer <jugador>` | Le trae a tu lado (si estaba congelado, sigue congelado ahí) | Solo si está conectado |
+| `/mod traer <jugador>` | Le trae a tu lado (si estaba congelado, sigue congelado ahí) | Solo si está conectado. **Tú, pisando suelo**: ni volando ni en espectador, para que no aparezca en el aire ni dentro de una pared |
+
+## Tu modo de juego
+
+| Comando | Qué hace | Ten en cuenta |
+|---|---|---|
 | `/espectador` | Te pone en espectador para mirar sin que te vean. Otra vez, vuelves al mismo sitio y modo | Queda en el historial |
+| `/gamemode spectator` | Te pone en espectador, como `/espectador` | Para volver: `/espectador` otra vez o `/gamemode survival` |
+| `/gamemode creative` | El **creativo vigilado**: vuelas y nadie te hace daño, pero no sacas nada del creativo ni coges, colocas o abres cofres. Tu inventario se guarda | Te ven: para que no te vean, el espectador. [Sus límites](limites.md#en-creativo) |
+| `/gamemode survival` | Vuelves a supervivencia: del creativo, con tu inventario entero; del espectador, al sitio donde estabas | Siempre se puede |
+
+- **Solo a ti mismo** y solo esos tres modos (también en castellano: `creativo`, `espectador`, `supervivencia`). Con el
+  nombre de otro sale *«Solo puedes cambiar tu propio modo de juego»*.
+- **Con botones**: abre `/mod` y, antes de elegir a nadie, abajo a la derecha está **Tu modo de juego**
+  ([ver](ventana.md#tu-modo-de-juego)).
+- **Cuándo no**: para pasar a creativo o a espectador no puedes estar en un duelo, en una escena ni en plena pelea, ni
+  tener las herramientas [suspendidas](limites.md#el-freno). Volver a supervivencia se puede siempre.
+- Si el chat no te lo sugiere al escribirlo, escríbelo entero y pulsa ++enter++: funciona igual.
+- Cada cambio de modo queda en el historial y lo ve el resto del staff.
+
+**¿Para qué el creativo?** Para **seguir de cerca** a alguien (si vuela con trampas, si se cuela donde no debe) y para
+**moverte deprisa** por el mapa sin que nadie te pueda pegar. Para lo demás (hablar por privado, comprar, viajar, tu
+casa…), vuelve a supervivencia.
 
 ## Inventario y depósito
 

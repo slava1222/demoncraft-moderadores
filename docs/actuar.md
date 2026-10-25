@@ -20,8 +20,8 @@ entre cazador y demonio hay PvP en casi todo el mapa. **Matar a alguien del otro
 
 ## Antes de sancionar
 
-- **Mira primero**: `/espectador`, `/mod ir` o la ficha del jugador en la ventana. Mira **Su historial**: si ya tiene
-  avisos o sanciones, se nota.
+- **Mira primero**: `/espectador`, `/mod ir`, el [creativo](comandos.md#tu-modo-de-juego) para seguirle volando o la
+  ficha del jugador en la ventana. Lee sus **Avisos** y su **Registro**: si ya tiene avisos o sanciones, se nota.
 - **Escribe siempre un motivo claro.** Lo ve el jugador, sale en el anuncio a todo el servidor y queda en el historial.
 - **De menos a más**: lo normal es avisar → silenciar → expulsar → banear unos días. Las trampas y el abuso de fallos son
   más graves que un mal momento en el chat.

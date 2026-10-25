@@ -1,6 +1,6 @@
 ---
 title: Tus límites
-description: A quién puede sancionar un moderador de DemonCraft, hasta cuánto, sus topes por hora y por día y el freno que suspende sus herramientas.
+description: A quién puede sancionar un moderador de DemonCraft, hasta cuánto, sus topes por hora y por día, el freno que suspende sus herramientas y lo que no puede hacer en creativo.
 ---
 
 # Tus límites
@@ -42,8 +42,8 @@ lento. Lo que llevas gastado lo ves con **`/mod topes`** y arriba en la ventana.
 ## El freno
 
 Si **chocas con los topes 3 veces en una hora**, tus herramientas quedan **suspendidas 12 horas**: no puedes sancionar,
-mover a nadie ni mirar inventarios, y se sueltan los que tenías congelados. A los administradores les llega cada tope y
-la suspensión.
+mover a nadie, mirar inventarios ni ponerte en creativo o en espectador, y se sueltan los que tenías congelados. A los
+administradores les llega cada tope y la suspensión.
 
 Si fue un malentendido (una noche con mucho jaleo, por ejemplo), un administrador puede levantarla.
 
@@ -51,8 +51,28 @@ Si fue un malentendido (una noche con mucho jaleo, por ejemplo), un administrado
     Para que un error, un mal día o una cuenta robada no puedan hacer mucho daño. Con los topes normales sobra para una
     noche movida; si alguna vez se te quedan cortos, avisa a un administrador para que lo lleve él.
 
+## En creativo
+
+Con `/gamemode creative` (o el botón **Creativo** de la [ventana](ventana.md#tu-modo-de-juego)) entras en el **creativo
+vigilado**: vuelas y nadie te hace daño. Sirve para **mirar y moverte deprisa**, no para jugar ni construir:
+
+- **No sacas nada del creativo**: lo que cojas de su menú, el servidor no te lo da.
+- **No coges ni sueltas** nada, **no colocas ni usas** objetos, **no abres cofres** (sí puedes mirar inventarios desde la
+  ventana de moderación) y **no pegas**.
+- **No compras ni viajas**, ni usas el Mercado o tu casa.
+- **Solo te funcionan `/mod`, `/espectador` y `/gamemode`.** Para cualquier otro comando, también los privados (`/msg`),
+  vuelve a supervivencia. El chat normal sí.
+- **Tu inventario se guarda** al entrar (con la armadura y lo de la otra mano) y te vuelve **entero** con
+  `/gamemode survival`, aunque salgas del servidor entretanto.
+- **No sales del mapa**: si cruzas el borde, te devuelve dentro, como a cualquiera.
+- **Para traer a alguien** tienes que estar pisando suelo (ni volando ni en espectador).
+- **Para entrar** (en creativo y en espectador) no puedes estar en un duelo, en una escena ni en plena pelea, ni tener las
+  herramientas suspendidas. Volver a supervivencia se puede siempre.
+
+El dueño del servidor puede apagar el creativo de los moderadores: entonces solo te queda el espectador.
+
 ## Lo que queda apuntado
 
-Todo: cada sanción, cada aviso, cada objeto retirado y cada vez que usas `/espectador`. Se ve en el **Historial**, queda
-en el registro del servidor y se avisa al resto del staff conectado. Las expulsiones, los baneos y los silencios se
-anuncian además a todo el servidor con su motivo.
+Todo: cada sanción, cada aviso, cada objeto retirado y cada cambio de modo de juego (creativo, espectador y la vuelta).
+Se ve en el **Historial**, queda en el registro del servidor y se avisa al resto del staff conectado. Las expulsiones, los
+baneos y los silencios se anuncian además a todo el servidor con su motivo.
