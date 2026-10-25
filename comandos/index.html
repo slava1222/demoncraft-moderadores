@@ -3,7 +3,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Todos los comandos de un moderador de DemonCraft (/mod y /espectador), con lo que hace cada uno y lo que hay que tener en cuenta.">
+        <meta name="description" content="Todos los comandos de un moderador de DemonCraft (/mod, /espectador y /gamemode), con lo que hace cada uno y lo que hay que tener en cuenta.">
       
       
         <meta name="author" content="DemonCraft">
@@ -618,6 +618,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#tu-modo-de-juego" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tu modo de juego
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#inventario-y-deposito" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -837,6 +848,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#tu-modo-de-juego" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tu modo de juego
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#inventario-y-deposito" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -996,15 +1018,55 @@ no se entiende.</p>
 <tr>
 <td><code>/mod traer &lt;jugador&gt;</code></td>
 <td>Le trae a tu lado (si estaba congelado, sigue congelado ahí)</td>
-<td>Solo si está conectado</td>
+<td>Solo si está conectado. <strong>Tú, pisando suelo</strong>: ni volando ni en espectador, para que no aparezca en el aire ni dentro de una pared</td>
 </tr>
+</tbody>
+</table>
+<h2 id="tu-modo-de-juego">Tu modo de juego<a class="headerlink" href="#tu-modo-de-juego" title="Permanent link">#</a></h2>
+<table>
+<thead>
+<tr>
+<th>Comando</th>
+<th>Qué hace</th>
+<th>Ten en cuenta</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><code>/espectador</code></td>
 <td>Te pone en espectador para mirar sin que te vean. Otra vez, vuelves al mismo sitio y modo</td>
 <td>Queda en el historial</td>
 </tr>
+<tr>
+<td><code>/gamemode spectator</code></td>
+<td>Te pone en espectador, como <code>/espectador</code></td>
+<td>Para volver: <code>/espectador</code> otra vez o <code>/gamemode survival</code></td>
+</tr>
+<tr>
+<td><code>/gamemode creative</code></td>
+<td>El <strong>creativo vigilado</strong>: vuelas y nadie te hace daño, pero no sacas nada del creativo ni coges, colocas o abres cofres. Tu inventario se guarda</td>
+<td>Te ven: para que no te vean, el espectador. <a href="../limites/#en-creativo">Sus límites</a></td>
+</tr>
+<tr>
+<td><code>/gamemode survival</code></td>
+<td>Vuelves a supervivencia: del creativo, con tu inventario entero; del espectador, al sitio donde estabas</td>
+<td>Siempre se puede</td>
+</tr>
 </tbody>
 </table>
+<ul>
+<li><strong>Solo a ti mismo</strong> y solo esos tres modos (también en castellano: <code>creativo</code>, <code>espectador</code>, <code>supervivencia</code>). Con el
+  nombre de otro sale <em>«Solo puedes cambiar tu propio modo de juego»</em>.</li>
+<li><strong>Con botones</strong>: abre <code>/mod</code> y, antes de elegir a nadie, abajo a la derecha está <strong>Tu modo de juego</strong>
+  (<a href="../ventana/#tu-modo-de-juego">ver</a>).</li>
+<li><strong>Cuándo no</strong>: para pasar a creativo o a espectador no puedes estar en un duelo, en una escena ni en plena pelea, ni
+  tener las herramientas <a href="../limites/#el-freno">suspendidas</a>. Volver a supervivencia se puede siempre.</li>
+<li>Si el chat no te lo sugiere al escribirlo, escríbelo entero y pulsa <span class="keys"><kbd class="key-enter">Enter</kbd></span>: funciona igual.</li>
+<li>Cada cambio de modo queda en el historial y lo ve el resto del <abbr title="El equipo del servidor: moderadores, administradores y el dueño">staff</abbr>.</li>
+</ul>
+<p><strong>¿Para qué el creativo?</strong> Para <strong>seguir de cerca</strong> a alguien (si vuela con trampas, si se cuela donde no debe) y para
+<strong>moverte deprisa</strong> por el mapa sin que nadie te pueda pegar. Para lo demás (hablar por privado, comprar, viajar, tu
+casa…), vuelve a supervivencia.</p>
 <h2 id="inventario-y-deposito">Inventario y depósito<a class="headerlink" href="#inventario-y-deposito" title="Permanent link">#</a></h2>
 <table>
 <thead>

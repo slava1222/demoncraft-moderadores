@@ -577,6 +577,34 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Jugadores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#las-herramientas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Las herramientas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tu-modo-de-juego" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tu modo de juego
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -812,6 +840,34 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Jugadores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#las-herramientas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Las herramientas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tu-modo-de-juego" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tu modo de juego
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -888,39 +944,57 @@
 
 <hr>
 <p>title: La ventana de moderación
-description: La ventana de moderación de DemonCraft (/mod): sus cinco pestañas, la ficha de un jugador, su inventario y el depósito.</p>
+description: La ventana de moderación de DemonCraft (/mod): sus cinco pestañas, la ficha de un jugador con sus avisos y su registro, tu modo de juego, su inventario y el depósito.</p>
 <hr>
 <h1 id="la-ventana-de-moderacion">La ventana de moderación<a class="headerlink" href="#la-ventana-de-moderacion" title="Permanent link">#</a></h1>
 <p>Escribe <strong><code>/mod</code></strong> (o <code>/moderacion</code>) sin nada más. Arriba ves tu papel (<strong>Moderador</strong>), cuántos jugadores hay conectados,
-cuántas sanciones están en vigor y cómo está el chat. Con <span class="keys"><kbd class="key-arrow-left">Left</kbd></span> y <span class="keys"><kbd class="key-arrow-right">Right</kbd></span> cambias de pestaña y con <span class="keys"><kbd class="key-escape">Esc</kbd></span> la
-cierras.</p>
-<p>La ventana tiene cinco pestañas: <strong>Jugadores</strong>, <strong>Sanciones</strong>, <strong>Reportes</strong>, <strong>Historial</strong> y <strong>Chat</strong>.</p>
+cuántas sanciones están en vigor, cómo está el chat y, si estás en creativo o en espectador, ese modo. Con <span class="keys"><kbd class="key-arrow-left">Left</kbd></span> y
+<span class="keys"><kbd class="key-arrow-right">Right</kbd></span> cambias de pestaña y con <span class="keys"><kbd class="key-escape">Esc</kbd></span> la cierras.</p>
+<p>La ventana tiene cinco pestañas: <strong>Jugadores</strong>, <strong>Sanciones</strong>, <strong>Reportes</strong>, <strong>Historial</strong> y <strong>Chat</strong>. No se corta ningún
+texto: lo que no cabe en su sitio se lee entero al pasar el ratón por encima, y con la rueda bajas por las listas largas.</p>
 <h2 id="jugadores">Jugadores<a class="headerlink" href="#jugadores" title="Permanent link">#</a></h2>
-<p>Un buscador y la <strong>ficha</strong> del jugador que elijas: rango, bando, clan, ping, horas jugadas, avisos, si está silenciado y
-si está congelado. Debajo, todos los botones.</p>
+<p>A la izquierda, un buscador y los conectados. Al elegir a alguien sale su <strong>ficha</strong>: rango, bando, clan, ping, horas
+jugadas y, en una línea, sus avisos, si está silenciado (hasta cuándo y por qué) y si está congelado. Debajo, tres
+pestañas:</p>
+<ul>
+<li><strong>Herramientas</strong>: todos los botones (<a href="#las-herramientas">abajo</a>).</li>
+<li><strong>Avisos</strong> (con su número): <strong>cada aviso entero</strong>, con quién lo puso, cuándo y por qué, los más nuevos arriba.</li>
+<li><strong>Registro</strong>: todo lo que dice de él el historial guardado del servidor: lo que le ha hecho el <abbr title="El equipo del servidor: moderadores, administradores y el dueño">staff</abbr> (sanciones, avisos,
+  objetos retirados…) y, si es del <abbr title="El equipo del servidor: moderadores, administradores y el dueño">staff</abbr>, también lo que ha hecho él. <strong>Míralo antes de sancionar.</strong></li>
+</ul>
 <figure>
   <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/img/capturas/moderacion-ficha.webp" data-desc-position="bottom"><img alt="Ventana de moderación con la ficha de un jugador" loading="lazy" src="../assets/img/capturas/moderacion-ficha.webp" width="760"></a>
 <br>
-<figcaption>La ficha de un jugador con sus botones (en esta captura la ventana la abre el dueño; en la tuya pone «Moderador»).</figcaption>
+<figcaption>Los botones de la ficha (la pestaña Herramientas). La captura es de antes de la actualización 1.4, sin las tres pestañas de la ficha, y la ventana la abre el dueño; en la tuya pone «Moderador».</figcaption>
 </figure>
+<h3 id="las-herramientas">Las herramientas<a class="headerlink" href="#las-herramientas" title="Permanent link">#</a></h3>
 <ul>
 <li><strong>Alguien que no está conectado</strong>: escribe su nombre completo en la búsqueda y pulsa <span class="keys"><kbd class="key-enter">Enter</kbd></span>. Así puedes banearle,
-  levantar su baneo o mirar su inventario aunque no esté.</li>
+  levantar su baneo, leer sus avisos y su registro o mirar su inventario aunque no esté.</li>
 <li><strong>Silenciar</strong> y <strong>Banear</strong>: eliges la duración (10 min, 1 h, 6 h, 1 d, 7 d o 30 d) y escribes el motivo, que se le
   muestra al jugador. Si ya está silenciado, en vez de Silenciar sale el botón para quitarle el silencio.</li>
 <li><strong>Expulsar</strong> (solo si está conectado): escribes el motivo.</li>
 <li><strong>Avisar</strong>: un aviso formal, siempre con motivo. Tres avisos en una semana le silencian una hora automáticamente.</li>
 <li><strong>Congelar</strong>: no se mueve, no pega, no recibe daño ni usa nada; solo puede hablar.</li>
-<li><strong>Ir hasta él</strong> y <strong>Traerlo aquí</strong>.</li>
-<li><strong>Borrar sus avisos</strong> y <strong>Su historial</strong> (sus sanciones y avisos anteriores: míralo antes de sancionar).</li>
+<li><strong>Ir hasta él</strong> y <strong>Traerlo aquí</strong> (para traerle tienes que estar pisando suelo: ni volando ni en espectador).</li>
+<li><strong>Borrar sus avisos</strong> y <strong>Su historial</strong> (te lleva al <a href="#historial">Historial</a> con solo lo suyo, lo mismo que su
+  Registro).</li>
 <li><strong>Ver inventario</strong> y <strong>Cofre de ender</strong> (<a href="#su-inventario-y-su-deposito">abajo</a>).</li>
 </ul>
+<h3 id="tu-modo-de-juego">Tu modo de juego<a class="headerlink" href="#tu-modo-de-juego" title="Permanent link">#</a></h3>
+<p>Al abrir la ventana, antes de elegir a nadie, a la derecha salen tus <a href="../limites/#tus-topes">topes</a> y, abajo, <strong>Tu modo de
+juego</strong> con tres botones: <strong>Supervivencia</strong>, <strong>Creativo</strong> y <strong>Espectador</strong> (el tuyo, marcado). Hacen lo mismo que
+<a href="../comandos/#tu-modo-de-juego"><code>/gamemode</code></a>: el creativo es el <strong>vigilado</strong> (<a href="../limites/#en-creativo">sus límites</a>) y el
+espectador, el de <code>/espectador</code>. Si el dueño del servidor ha apagado el creativo de los moderadores, solo salen
+Supervivencia y Espectador.</p>
 <h2 id="sanciones">Sanciones<a class="headerlink" href="#sanciones" title="Permanent link">#</a></h2>
 <p>Los baneos y silencios en vigor, con el botón <strong>Levantar</strong>. Solo puedes levantar los que pusiste tú (y los silencios
-automáticos por avisos, que no son de nadie).</p>
+automáticos por avisos, que no son de nadie). El motivo se lee en varias líneas; si es muy largo, entero al pasar el
+ratón.</p>
 <h2 id="reportes">Reportes<a class="headerlink" href="#reportes" title="Permanent link">#</a></h2>
 <p>Los reportes abiertos que han hecho los jugadores, con <strong>Ir</strong> (te lleva junto a quien han reportado) y <strong>Cerrar</strong>. Al
-cerrarlo, a quien lo hizo le llega un aviso.</p>
+cerrarlo, a quien lo hizo le llega un aviso. Los detalles se leen como las sanciones: en varias líneas y, si son muy
+largos, al pasar el ratón.</p>
 <figure>
   <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/img/capturas/reporte.webp" data-desc-position="bottom"><img alt="Formulario de reporte de los jugadores" loading="lazy" src="../assets/img/capturas/reporte.webp" width="560"></a>
 <br>
@@ -929,7 +1003,9 @@ cerrarlo, a quien lo hizo le llega un aviso.</p>
 <p>Los motivos que pueden elegir son: insultos o acoso, trampas o hacks, griefing o robo, <abbr title="Repetir mensajes o llenar el chat para molestar">spam</abbr> o publicidad, abuso de un fallo
 u otro motivo. Cada jugador puede mandar un reporte por minuto (seis por hora).</p>
 <h2 id="historial">Historial<a class="headerlink" href="#historial" title="Permanent link">#</a></h2>
-<p>Las últimas 80 acciones del <abbr title="El equipo del servidor: moderadores, administradores y el dueño">staff</abbr>: quién hizo qué, a quién y por qué. Todo lo que haces sale aquí.</p>
+<p>Las últimas 80 acciones del <abbr title="El equipo del servidor: moderadores, administradores y el dueño">staff</abbr>: quién hizo qué, a quién y por qué. Todo lo que haces sale aquí. Con un jugador
+elegido, arriba a la derecha tienes dos botones: <strong>Solo</strong> con su nombre (por ejemplo «Solo Kaito22»: todo lo que dice de
+él el historial guardado, como su Registro) y <strong>Todo</strong>.</p>
 <h2 id="chat">Chat<a class="headerlink" href="#chat" title="Permanent link">#</a></h2>
 <figure>
   <a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../assets/img/capturas/moderacion-chat.webp" data-desc-position="bottom"><img alt="Pestaña Chat de la ventana de moderación" loading="lazy" src="../assets/img/capturas/moderacion-chat.webp" width="760"></a>
@@ -947,7 +1023,8 @@ u otro motivo. Cada jugador puede mandar un reporte por minuto (seis por hora).<
 ender.</p>
 <ul>
 <li><strong>Un clic en un objeto se lo retira</strong> y lo guarda en su <strong>depósito</strong>, nunca en tu inventario. Nadie se queda con nada.</li>
-<li><strong>Solo mirar</strong> si está desconectado (ves lo de su último guardado), si aún no ha iniciado sesión o si está en un duelo.</li>
+<li><strong>Solo mirar</strong> si está desconectado (ves lo de su último guardado), si aún no ha iniciado sesión, si está en un duelo o
+  si tú estás en espectador.</li>
 <li><strong>No se retira</strong> lo que va con su historia: su katana y los objetos de misión (tampoco una mochila o caja que los
   lleve dentro). Eso solo lo puede tocar el dueño.</li>
 <li><strong>El depósito</strong>: el botón de abajo a la derecha de esa vista (o <code>/mod deposito &lt;jugador&gt;</code>) enseña lo que se le ha
