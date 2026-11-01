@@ -75,3 +75,63 @@ description: Los mensajes que le pueden salir a un moderador de DemonCraft y qu�
 ??? question "Me sale «Duración no válida»"
     Al silenciar o banear, la duración va antes del motivo y se escribe así: `30m`, `2h`, `7d` (o un número solo, que son
     minutos). Ejemplo: `/mod silenciar Kaito22 2h Spam en el chat`.
+
+??? question "No me deja retirarle la mochila"
+    Lleva dentro algo con su historia (o no se puede mirar todo lo de dentro): solo la puede quitar el dueño. Si crees que no debería
+    tenerla, avisa a un administrador. [Ver la mochila en la ventana](ventana.md#la-mochila)
+
+??? question "¿Puedo ver lo que lleva dentro de la mochila?"
+    Objeto por objeto, no. Ves qué mochila es y cuántos huecos lleva ocupados; al retirarla, el aviso dice cuántos objetos llevaba. Si
+    hace falta mirar más, avisa a un administrador.
+
+??? question "Voy con `/mod ir` a alguien en Yamanote y me devuelven a la plaza"
+    Del Gran Torii para dentro solo pasan los VIP de pago, quienes viven allí y sus invitados, y los guardias no hacen excepciones con el
+    creativo de moderador. Ponte antes en espectador (`/espectador`) y entonces `/mod ir <jugador>`.
+
+## Lo nuevo de la 2.0: dónde mirar
+
+Si un jugador te pregunta cómo funciona algo, mándale a su página de la
+[guía de jugadores](https://slava1222.github.io/demoncraft-guia/):
+
+| Le preguntan por | Dónde mirar |
+|---|---|
+| Las mochilas nuevas, qué pasa con las de antes | [Las mochilas](https://slava1222.github.io/demoncraft-guia/economia/mochilas/) |
+| La rueda de emotes (la tecla º) | [Emotes](https://slava1222.github.io/demoncraft-guia/social/emotes/) |
+| La lista del Tab | [La K y la pantalla](https://slava1222.github.io/demoncraft-guia/empezar/menu-k/#la-lista-de-jugadores-tab) |
+| Las mansiones VIP | [Yamanote](https://slava1222.github.io/demoncraft-guia/ciudadela/yamanote/) |
+| El restaurante | [El Ryōtei](https://slava1222.github.io/demoncraft-guia/ciudadela/ryotei/) |
+| Cómo se trabaja en el Mercado de la Ciudadela | [Los oficios](https://slava1222.github.io/demoncraft-guia/ciudadela/oficios/#empezar-un-turno) |
+| Mascotas | [Mascotas de casa](https://slava1222.github.io/demoncraft-guia/economia/mascotas/) |
+| Plantas | [Plantas de casa](https://slava1222.github.io/demoncraft-guia/economia/plantas/) |
+| Pareja, boda | [Relaciones y pareja](https://slava1222.github.io/demoncraft-guia/social/relaciones/) |
+| Qué hacer con la sangre o los méritos que sobran | [El trueque](https://slava1222.github.io/demoncraft-guia/economia/trueque/) |
+| Duelos 2 contra 2 | [Duelos en pareja](https://slava1222.github.io/demoncraft-guia/social/duelos-parejas/) |
+| Las técnicas nuevas de los demonios | [La Senda del Demonio](https://slava1222.github.io/demoncraft-guia/demonio/senda/) |
+| Las misiones nuevas | [Las tres Reliquias](https://slava1222.github.io/demoncraft-guia/misiones/reliquias/) · [Los arcos del demonio](https://slava1222.github.io/demoncraft-guia/misiones/arcos-demonio/) |
+| Armas y materiales nuevos | [La forja mayor](https://slava1222.github.io/demoncraft-guia/economia/forja-mayor/) |
+| Lo que dan los VIP | [Rangos VIP](https://slava1222.github.io/demoncraft-guia/vip/) |
+
+Y lo que te puede llegar como reporte o como queja:
+
+??? question "«Me ha cogido una mano gigante y no podía moverme»"
+    No son trampas: es el agarre del rango **Señor de las Ánimas**. Dura menos de dos segundos, y después no le puede volver a coger en
+    diez. En zonas seguras, en la Ciudadela y en casas sin PvP no coge.
+    [Ver el agarre](https://slava1222.github.io/demoncraft-guia/vip/#el-senor-de-las-animas-el-agarre-del-esqueleto)
+
+??? question "«Le han matado la mascota» o «le han hecho algo a su pareja»"
+    No se puede: nada ni nadie puede hacerles daño. Una mascota solo muere de hambre o de sed, con avisos antes; y una pareja se marcha
+    si no le hace caso (a los 7 días sin hacerle caso le escribe una carta y, 3 días después, se va). Si insiste en que es un error, avisa
+    a un administrador.
+
+??? question "«He perdido cosas de mi mochila al cambiarse»"
+    Se cambian solas y no se pierde nada: cada objeto sigue en su hueco, lo que estaba en pilas de más de 64 pasa a pilas normales en los
+    primeros huecos libres, y lo que no cabe queda en unos huecos de sobra, en rojo, al final. Si aun así le falta algo, no se lo des tú:
+    pásale a un administrador su nombre y qué le falta. Queda todo apuntado.
+
+??? question "«No me dejan pasar en Yamanote»"
+    Es a propósito: la plaza es de todos, y del Gran Torii para dentro solo pasan los VIP de pago, quienes viven allí y sus invitados
+    (`/mansion invitar <jugador>`, 2 horas). El Amanecer no cuenta.
+
+??? question "Un jugador cae en un duelo de parejas y se queda mirando desde arriba"
+    Es lo normal, no son trampas: quien cae queda en modo espectador hasta que acabe el combate, y luego vuelve a su sitio. Mientras dura,
+    su inventario es de solo mirar, como en cualquier duelo.

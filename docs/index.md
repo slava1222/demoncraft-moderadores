@@ -22,7 +22,15 @@ silencios) se anuncian a todo el servidor con su motivo. Modera como te gustarí
     Escribe **`/mod`** en el juego: se abre la ventana de moderación. Desde ahí se hace casi todo con botones.
     [Ver la ventana](ventana.md)
 
-!!! tip "Novedades de la actualización 1.4"
+!!! tip "Novedades de la actualización 2.0"
+    - **Las mochilas son nuevas** y se pueden llevar a la espalda. En la ventana de su inventario, la de la espalda tiene su
+      propio hueco; lo de dentro no se lista, y si lleva algo con su historia no se retira. [Ver cómo](ventana.md#la-mochila)
+    - **En Yamanote**, el barrio de las mansiones, los guardias te devuelven a la plaza si no tienes un rango VIP de pago: para mirar
+      allí dentro, `/espectador`. [Ver tus límites](limites.md#en-creativo)
+    - **Te van a preguntar por lo nuevo** (mascotas, plantas, parejas, emotes, el trueque…): aquí tienes
+      [dónde mirar cada cosa](faq.md#lo-nuevo-de-la-20-donde-mirar).
+
+??? tip "Novedades de la actualización 1.4"
     - **Creativo y espectador** para ti: `/gamemode creative`, `spectator` o `survival`, o los botones de la ventana. En
       creativo vuelas y nadie te hace daño, pero no coges ni colocas nada, y tu inventario te espera guardado.
       [Ver cómo](comandos.md#tu-modo-de-juego) · [Sus límites](limites.md#en-creativo)

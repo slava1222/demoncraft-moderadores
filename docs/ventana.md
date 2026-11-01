@@ -94,13 +94,29 @@ elegido, arriba a la derecha tienes dos botones: **Solo** con su nombre (por eje
 ender.
 
 - **Un clic en un objeto se lo retira** y lo guarda en su **depósito**, nunca en tu inventario. Nadie se queda con nada.
-- **Solo mirar** si está desconectado (ves lo de su último guardado), si aún no ha iniciado sesión, si está en un duelo o
-  si tú estás en espectador.
+- **Solo mirar** si está desconectado (ves lo de su último guardado), si aún no ha iniciado sesión, si está en un duelo
+  (también en uno de parejas) o si tú estás en espectador.
 - **No se retira** lo que va con su historia: su katana y los objetos de misión (tampoco una mochila o caja que los
   lleve dentro). Eso solo lo puede tocar el dueño.
 - **El depósito**: el botón de abajo a la derecha de esa vista (o `/mod deposito <jugador>`) enseña lo que se le ha
   retirado. **Un clic se lo devuelve**: a su inventario o, si no cabe o no está conectado, a su buzón del Mercado. Con
   `/mod devolver <jugador>` se le devuelve todo.
+
+### La mochila
+
+Desde la actualización 2.0 las mochilas son nuevas y se pueden llevar a la espalda. En la ventana:
+
+- **La de la espalda tiene su propio hueco**: en la quinta fila, la de la armadura y la otra mano, a la derecha. Las demás están
+  donde las tenga, en el inventario o en el cofre de ender. Si está desconectado también ves la de la espalda, como en su último guardado.
+- **Al pasar el ratón** ves qué mochila es y cuántos huecos lleva ocupados.
+- **Lo de dentro no se ve objeto por objeto.** Si está desconectado, su ficha te lo recuerda: *«No incluye lo que lleve dentro de una
+  mochila»*.
+- **Se retira entera**, con lo de dentro, como cualquier objeto: va a su depósito y el aviso dice cuántos objetos llevaba
+  (*«con N objetos dentro»*). Y se devuelve igual: entera.
+- **Si dentro lleva algo con su historia**, no te deja: *«Eso va con su historia (katana u objeto de misión, o lo lleva dentro)»*. Si
+  no se puede mirar todo lo de dentro: *«No se puede ver todo lo que lleva dentro»*. En los dos casos, solo la puede quitar el dueño.
+  Casi siempre pasará: la gente guarda ahí sus cosas de misión. Avisa a un administrador.
+- **Si la tiene abierta**, se le cierra antes de retirársela.
 
 !!! warning "Retirar no es castigar"
     Retira algo solo si no debería tenerlo (por ejemplo, algo conseguido con un fallo del servidor) y avisa a un

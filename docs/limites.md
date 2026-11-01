@@ -57,7 +57,7 @@ Con `/gamemode creative` (o el botón **Creativo** de la [ventana](ventana.md#tu
 vigilado**: vuelas y nadie te hace daño. Sirve para **mirar y moverte deprisa**, no para jugar ni construir:
 
 - **No sacas nada del creativo**: lo que cojas de su menú, el servidor no te lo da.
-- **No coges ni sueltas** nada, **no colocas ni usas** objetos, **no abres cofres** (sí puedes mirar inventarios desde la
+- **No coges ni sueltas** nada, **no colocas ni usas** objetos, **no abres cofres ni tu mochila** (sí puedes mirar inventarios desde la
   ventana de moderación) y **no pegas**.
 - **No compras ni viajas**, ni usas el Mercado o tu casa.
 - **Solo te funcionan `/mod`, `/espectador` y `/gamemode`.** Para cualquier otro comando, también los privados (`/msg`),
@@ -66,6 +66,8 @@ vigilado**: vuelas y nadie te hace daño. Sirve para **mirar y moverte deprisa**
   `/gamemode survival`, aunque salgas del servidor entretanto.
 - **No sales del mapa**: si cruzas el borde, te devuelve dentro, como a cualquiera.
 - **Para traer a alguien** tienes que estar pisando suelo (ni volando ni en espectador).
+- **En Yamanote, el barrio de las mansiones, los guardias te devuelven a la plaza** si no tienes un rango VIP de pago, también en
+  creativo: del Gran Torii para dentro solo se entra [en espectador](comandos.md#tu-modo-de-juego).
 - **Para entrar** (en creativo y en espectador) no puedes estar en un duelo, en una escena ni en plena pelea, ni tener las
   herramientas suspendidas. Volver a supervivencia se puede siempre.
 

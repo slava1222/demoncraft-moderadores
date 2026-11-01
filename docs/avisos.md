@@ -45,6 +45,7 @@ invulnerable.
 - Si se ha **desconectado alguien congelado** al que estabas revisando.
 - Si tiene que ver con **compras de la tienda** o dinero real (un rango, el Pase Premium o la Sangre Premium que no le llega:
   la tienda lo entrega con el jugador conectado, a veces con unos minutos de retraso).
+- Si alguien reclama algo de su **mochila** (le falta algo de dentro, o no aparece una de las de antes): pasa su nombre y qué le falta.
 - **Siempre que dudes.** Mejor preguntar que deshacer.
 
 !!! tip "Dónde"
