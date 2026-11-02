@@ -57,7 +57,7 @@ y avisa a un administrador.
 ### Sospechoso de trampas
 
 1. **Congélale** (`/mod congelar <jugador>`) y dile por el chat que no se desconecte.
-2. Mira su **inventario** y su **cofre de ender** por si tiene algo que no debería.
+2. Mira su **inventario** y su **cofre de ender y bolsa** por si tiene algo que no debería.
 3. Si lo tienes claro, **banea** con el motivo (por ejemplo «Programa de trampas: vuelo»). Si no, avisa a un administrador
    con lo que has visto.
 

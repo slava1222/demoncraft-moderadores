@@ -70,7 +70,7 @@ casa…), vuelve a supervivencia.
 | Comando | Qué hace | Ten en cuenta |
 |---|---|---|
 | `/mod inventario <jugador>` | Ves su inventario, con la [mochila de la espalda](ventana.md#la-mochila) en su hueco. Un clic en un objeto se lo retira a su **depósito** | Desconectado, sin iniciar sesión o en un duelo: solo mirar. Su katana y los objetos de misión no se retiran |
-| `/mod ender <jugador>` | Lo mismo con su cofre de ender | |
+| `/mod ender <jugador>` | Lo mismo con su cofre de ender (filas 1-3) y su bolsa de viaje (filas 4-5) | |
 | `/mod deposito <jugador>` | Lo que se le ha retirado, con su número | |
 | `/mod devolver <jugador> [número o todo]` | Se lo devuelve: a su inventario o, si no cabe o no está, a su buzón del Mercado | Sin número, todo |
 

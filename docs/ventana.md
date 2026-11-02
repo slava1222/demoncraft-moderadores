@@ -40,7 +40,7 @@ pestañas:
 - **Ir hasta él** y **Traerlo aquí** (para traerle tienes que estar pisando suelo: ni volando ni en espectador).
 - **Borrar sus avisos** y **Su historial** (te lleva al [Historial](#historial) con solo lo suyo, lo mismo que su
   Registro).
-- **Ver inventario** y **Cofre de ender** ([abajo](#su-inventario-y-su-deposito)).
+- **Ver inventario** y **Ender y bolsa** ([abajo](#su-inventario-y-su-deposito)).
 
 ### Tu modo de juego
 
@@ -90,8 +90,9 @@ elegido, arriba a la derecha tienes dos botones: **Solo** con su nombre (por eje
 
 ## Su inventario y su depósito
 
-**Ver inventario** (o `/mod inventario <jugador>`) abre lo que lleva en un cofre; **Cofre de ender**, lo de su cofre de
-ender.
+**Ver inventario** (o `/mod inventario <jugador>`) abre lo que lleva en un cofre; **Ender y bolsa** (o `/mod ender
+<jugador>`), lo de su cofre de ender en las filas 1-3 y lo de su **bolsa de viaje** (las 18 casillas de más que tienen
+todos desde la actualización 2.1) en las filas 4-5. El botón de abajo, en medio, pasa de una vista a la otra.
 
 - **Un clic en un objeto se lo retira** y lo guarda en su **depósito**, nunca en tu inventario. Nadie se queda con nada.
 - **Solo mirar** si está desconectado (ves lo de su último guardado), si aún no ha iniciado sesión, si está en un duelo
@@ -107,7 +108,7 @@ ender.
 Desde la actualización 2.0 las mochilas son nuevas y se pueden llevar a la espalda. En la ventana:
 
 - **La de la espalda tiene su propio hueco**: en la quinta fila, la de la armadura y la otra mano, a la derecha. Las demás están
-  donde las tenga, en el inventario o en el cofre de ender. Si está desconectado también ves la de la espalda, como en su último guardado.
+  donde las tenga, en el inventario o en el cofre de ender (en la bolsa de viaje no entran). Si está desconectado también ves la de la espalda, como en su último guardado.
 - **Al pasar el ratón** ves qué mochila es y cuántos huecos lleva ocupados.
 - **Lo de dentro no se ve objeto por objeto.** Si está desconectado, su ficha te lo recuerda: *«No incluye lo que lleve dentro de una
   mochila»*.
